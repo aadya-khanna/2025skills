@@ -4,4 +4,5 @@ Description: This is an inventory management system that displays tea inventory,
 
 ## How to use the program 
 
-The program can be run via the jar file. The files in the repository should be downloaded. Once you run the java file 
+The program can be run via the jar file. The files in the repository should be downloaded. Then run the jar file, and the program shoud be working! 
+The program contains a description of the project at the start. The program lets the user perform various operations as a tea wholesaler, until they choose the exit option which exits the program. 
