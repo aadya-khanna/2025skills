@@ -51,6 +51,7 @@ public class TeaCommands
 
         ArrayList<Integer> teaIds = new ArrayList<>(); 
 
+        // reading values in the data file to create a list of all the current tea id numbers
         try {
             BufferedReader br = new BufferedReader(new FileReader(path));
             br.readLine(); 
@@ -90,5 +91,6 @@ public class TeaCommands
         String newpriceperkg = kb.nextLine();
 
         String toAppend = newTeaId + "," + newTeaName + "," + newTeaType + "," + newStockKg + "," + newpriceperkg;
+
     }
 }
